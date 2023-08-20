@@ -1,0 +1,39 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align horizontally */
+  justify-content: center; /* Center align vertically */
+  height: 100vh; /* Adjust the height as needed */
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-form {
+  display: grid;
+  gap: 10px;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #000000; /* Blue color for button */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Additional styles can be added here */
